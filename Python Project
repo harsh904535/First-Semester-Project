@@ -1,0 +1,12 @@
+# First-Semester-Project
+Table G
+n=int(input("Enter a number till you enter the correct number"))
+if n==0:
+    print("Enter a correct number: ")
+else:
+    for i in range(2,n+1,1):
+        print("Table of",i,":")
+        for j in range(1,11,1):
+            print(i,"*",j,"=",i*j)
+            
+       
